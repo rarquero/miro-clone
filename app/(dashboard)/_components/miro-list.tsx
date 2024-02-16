@@ -22,7 +22,10 @@ export const MiroList = ({
     orgId,
     query,
 }: MiroListProps) => {
-    const data = useQuery(api.boards.get, { orgId }); // Changed to API call
+    const data = useQuery(api.boards.get, { 
+        orgId,
+        ...query,
+    }); // Changed to API call
 
     if (data === undefined) {
         return (
@@ -72,7 +75,7 @@ export const MiroList = ({
                         authorName={board.authorName}
                         createdAt={board._creationTime}
                         orgId={board.orgId}
-                        isFavorite={false}
+                        isFavorite={board.isFavorite}
                     />
                 ))}
             </div>

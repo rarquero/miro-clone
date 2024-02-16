@@ -6,7 +6,7 @@ import {
     useOrganizationList,
 } from "@clerk/nextjs";
 
-import { Hint } from "@/components/ui/hint"
+import { Hint } from "@/components/hint"
 import { cn } from "@/lib/utils"
 
 interface ItemProps {

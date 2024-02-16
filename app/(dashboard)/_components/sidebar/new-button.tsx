@@ -8,7 +8,7 @@ import {
     DialogContent,
     DialogTrigger,
 } from "@/components/ui/dialog";
-import { Hint } from "@/components/ui/hint";
+import { Hint } from "@/components/hint";
 
 export const NewButton = () => {
     return (

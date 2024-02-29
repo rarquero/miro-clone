@@ -26,7 +26,7 @@ export const OrgSidebar = () => {
                 <div className="flex items-center gap-x-2">
                     <Image
                         src="/logo.svg"
-                        alt="logo"
+                        alt="miro clone logo"
                         height={60}
                         width={60}
                     />
@@ -34,7 +34,7 @@ export const OrgSidebar = () => {
                         "font-semibold text-2xl",
                         font.className,
                     )}>
-                        Miro
+                        miro
                     </span>
                 </div>
             </Link>

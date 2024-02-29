@@ -46,7 +46,7 @@ export const MiroList = ({
     }
 
     if (!data?.length && query.search) {
-        return  <EmptySearch />;
+        return <EmptySearch />;
     }
 
     if (!data?.length && query.favorites) {

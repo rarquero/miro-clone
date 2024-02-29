@@ -16,7 +16,6 @@ const DashboardLayout = ({
                 <div className="flex gap-x-3 h-full">
                     <OrgSidebar />
                     <div className="h-full flex-1">
-                        {/* Add NavBar */}
                         <NavBar />
                         {children}
                     </div>
